@@ -2,16 +2,22 @@ html {
     font-size: 50%;
 }
 
+
+/* NAVBAR */
+
 header .icons #menu-bars {
     display: block;
+    width: 5rem;
+    height: 5rem;
+    font-size: 4rem;
+    padding-top: .2rem;
 }
 
 header {
     position: fixed;
-}
-
-header {
-    padding: 4rem 8rem;
+    padding: 4rem 2.5rem;
+    transition: top 0.3s;
+    position: relative;
 }
 
 header .navbar {
@@ -35,7 +41,9 @@ header .navbar a {
     padding: 1.5rem;
     margin: 1rem;
     font-size: 2rem;
+    font-weight: 800;
     text-align: center;
+    color: azure;
     background: rgb(0, 0, 0);
 }
 
@@ -44,8 +52,171 @@ header .nav-button {
 }
 
 
-/* BANNER SECTION  */
+/* Main  */
+
+.main {
+    margin: 0rem 2.5rem 0rem 2.5rem;
+}
+
+
+/* Banner section  */
 
 .banner-section {
-    padding-top: 5rem;
+    width: 95%;
+    margin: 0%;
+}
+
+.banner-section h2 {
+    font-size: 4rem;
+}
+
+.banner-section p {
+    font-size: 2rem;
+    width: 100%;
+}
+
+
+/* Brand Section  */
+
+.brands {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 7rem .5rem;
+    display: block;
+}
+
+#samsung {
+    width: 50%;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+#tinder {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+#walmart {
+    margin-left: -1rem;
+    margin-bottom: 2rem;
+}
+
+#jpmorgan {
+    margin-left: 1rem;
+}
+
+#visa {
+    margin-left: 2rem;
+}
+
+#samsung img {
+    width: 100%;
+}
+
+#verizon img {
+    width: 100%;
+}
+
+#verizon {
+    width: 40%;
+}
+
+
+/* Website Section  */
+
+.website-section {
+    margin: 0%;
+    margin-top: 20rem;
+}
+
+.website {
+    display: block;
+    width: 100%;
+    margin: 0%;
+}
+
+.spense {
+    width: 100%;
+    margin-bottom: 7rem;
+}
+
+.website i {
+    margin-left: 1.5rem;
+    font-size: 3rem;
+}
+
+.yelp {
+    width: 100%;
+}
+
+
+/* About Section  */
+
+.about-main {
+    margin: 8rem -2.5rem 0 -2.5rem;
+}
+
+.about-section {
+    margin: 0;
+    width: 100%;
+    padding: 8rem 2.5rem;
+}
+
+#col1,
+#col2 {
+    width: 100%;
+}
+
+.about-section h2 {
+    font-size: 3.5rem;
+}
+
+.about-section p {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.about {
+    display: block;
+    width: 100%;
+}
+
+
+/* Interested Section  */
+
+.interested-main {
+    margin: 0%;
+    margin-top: 8rem;
+}
+
+.interested-section {
+    width: 95%;
+}
+
+.interested-section h3 {
+    font-size: 3.8rem;
+}
+
+.interested-section p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.interested-section button {
+    margin-top: 3rem;
+}
+
+
+/* Footer Section  */
+
+.footer-main {
+    background: #2e3038;
+    height: 6rem;
+}
+
+.footer-section {
+    margin: 4rem 2.5rem 0rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
 }
