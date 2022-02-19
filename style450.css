@@ -36,6 +36,10 @@ header .navbar.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
+header .nav-logo {
+    font-size: 1.8rem;
+}
+
 header .navbar a {
     display: block;
     padding: 1.5rem;
@@ -78,11 +82,11 @@ header .nav-button {
 
 /* Brand Section  */
 
-.brands {
+.brand-section {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 7rem .5rem;
-    display: block;
+    margin: 7rem .5rem 18rem .5rem;
 }
 
 #samsung {
@@ -126,7 +130,7 @@ header .nav-button {
 
 .website-section {
     margin: 0%;
-    margin-top: 20rem;
+    margin-top: 8rem;
 }
 
 .website {

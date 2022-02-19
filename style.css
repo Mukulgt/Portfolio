@@ -34,6 +34,10 @@ body {
     color: white;
 }
 
+.main {
+    margin: 2rem 6rem;
+}
+
 
 /* Navbar */
 
@@ -104,25 +108,21 @@ header .icons #menu-bars {
 
 /* Banner */
 
-.banner-section {
-    margin: 2rem 6rem;
-}
-
 .banner {
     margin-top: 3rem;
 }
 
-.banner h1 {
+.banner h2 {
     width: 68%;
     font-weight: 300;
-    font-size: 56px;
+    font-size: 3.7rem;
 }
 
 .banner p {
-    width: 60%;
+    width: 65%;
     margin-top: 5px;
     color: gray;
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 5px;
 }
 
@@ -130,10 +130,6 @@ header .icons #menu-bars {
 /* brands showcase */
 
 .brand-section {
-    margin: 2rem 6rem;
-}
-
-.brands {
     margin: 65px 0px;
     display: flex;
     justify-content: space-between;
@@ -151,10 +147,6 @@ header .icons #menu-bars {
 
 
 /* website showcase */
-
-.website-section {
-    margin: 2rem 6rem;
-}
 
 .website {
     display: flex;
@@ -215,12 +207,12 @@ header .icons #menu-bars {
 /* About Section  */
 
 .about-main {
+    margin: 4rem -6rem;
     background-color: #2e3038;
 }
 
 .about-section {
-    margin: 4rem 6rem;
-    padding: 4rem 0rem;
+    padding: 4rem 6rem;
 }
 
 .about {
@@ -258,23 +250,20 @@ header .icons #menu-bars {
 
 /* Interested Section  */
 
-.interested-main {
-    margin: 4rem 6rem;
-}
-
 .interested-section {
-    width: 35%;
+    width: 48%;
 }
 
 .interested-section h3 {
-    font-size: 25px;
+    font-size: 2.1rem;
     /* letter-spacing: 1px; */
     font-weight: 100;
 }
 
 .interested-section p {
     margin-top: .5rem;
-    font-size: 13px;
+    width: 97%;
+    font-size: 1.1rem;
     color: #a8a8a8;
     font-weight: 500;
 }

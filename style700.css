@@ -78,47 +78,25 @@ header .nav-button {
 
 /* Brand Section  */
 
-.brands {
+.brand-section {
+    margin: 3rem 0rem 13rem 0rem;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 7rem .5rem;
-    display: block;
 }
 
-#samsung {
-    width: 50%;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
-}
-
-#tinder {
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-}
-
-#walmart {
-    margin-left: -1rem;
-    margin-bottom: 2rem;
-}
-
-#jpmorgan {
-    margin-left: 1rem;
-}
-
-#visa {
-    margin-left: 2rem;
-}
-
-#samsung img {
-    width: 100%;
-}
-
-#verizon img {
-    width: 100%;
-}
-
+#walmart,
+#jpmorgan,
+#visa,
+#tinder,
+#samsung,
 #verizon {
-    width: 40%;
+    display: flex;
+    width: 33.3%;
+    height: fit-content;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 2rem;
 }
 
 
