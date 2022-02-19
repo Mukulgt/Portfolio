@@ -52,12 +52,12 @@ header {
 
 .nav-logo {
     color: #eee;
-    font-size: 2.5rem;
+    font-size: 1.3rem;
     font-weight: bolder;
 }
 
 header .navbar a {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     color: var(--light-color);
@@ -96,7 +96,7 @@ header .icons #menu-bars {
     background-color: rgb(255, 219, 74);
     color: black;
     border-style: none;
-    font-size: 18px;
+    font-size: 1rem;
     padding: 10px 20px;
     font-family: 'prata', sans-serif;
 }

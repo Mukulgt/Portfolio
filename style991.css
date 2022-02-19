@@ -1,16 +1,299 @@
-html {
-    font-size: 55%;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Prata&display=swap');
+:root {
+    --green: #27ae60;
+    --black: #192a56;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
 }
 
-.main {
-    margin-top: 10rem;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Prata', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+
+/* NAVBAR */
+
+header .icons #menu-bars {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    font-size: 4rem;
+    padding-top: .2rem;
 }
 
 header {
-    padding: 1rem 2rem;
     position: fixed;
+    padding: 4rem 2.5rem;
+    transition: top 0.3s;
+    position: relative;
 }
 
-section {
-    padding: 2rem;
+header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    border-top: .1rem solid rgba(0, 0, 0, .2);
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+header .navbar a {
+    display: block;
+    padding: 1.5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    color: azure;
+    background: rgb(0, 0, 0);
+}
+
+header .nav-button {
+    display: none;
+}
+
+
+/* Banner */
+
+.banner-section {
+    margin: 2rem 6rem;
+}
+
+.banner {
+    margin-top: 3rem;
+}
+
+.banner h1 {
+    width: 68%;
+    font-weight: 300;
+    font-size: 56px;
+}
+
+.banner p {
+    width: 60%;
+    margin-top: 5px;
+    color: gray;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+
+/* brands showcase */
+
+.brand-section {
+    margin: 2rem 6rem;
+}
+
+.brands {
+    margin: 65px 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 23px;
+}
+
+.brands div {
+    display: inline-block;
+}
+
+.brands div img {
+    width: auto;
+    height: 25px;
+}
+
+
+/* website showcase */
+
+.website-section {
+    margin: 2rem 6rem;
+}
+
+.website {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spense {
+    width: 46%;
+}
+
+#spense {
+    width: 100%;
+    object-fit: cover;
+}
+
+.yelp {
+    width: 46%;
+}
+
+#yelp {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Website showcase text */
+
+.arrow {
+    display: inline-block;
+    width: 1rem;
+}
+
+.spense h3 {
+    margin: 1.2rem .7rem .7rem 0rem;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.spense p {
+    color: #656566;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.yelp h3 {
+    margin: 1.2rem .7rem .7rem 0rem;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.yelp p {
+    color: #656566;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+/* About Section  */
+
+.about-main {
+    background-color: #2e3038;
+}
+
+.about-section {
+    margin: 4rem 6rem;
+    padding: 4rem 0rem;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+#col1 {
+    width: 48%;
+}
+
+.about h3 {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.about p {
+    font-size: 13px;
+    color: #a8a8a8;
+    font-weight: 500;
+}
+
+.p-with-margin {
+    margin-top: 1rem;
+}
+
+.without-margin {
+    margin-top: .5rem;
+}
+
+#col2 {
+    width: 48%;
+}
+
+
+/* Interested Section  */
+
+.interested-main {
+    margin: 4rem 6rem;
+}
+
+.interested-section {
+    width: 35%;
+}
+
+.interested-section h3 {
+    font-size: 25px;
+    /* letter-spacing: 1px; */
+    font-weight: 100;
+}
+
+.interested-section p {
+    margin-top: .5rem;
+    font-size: 13px;
+    color: #a8a8a8;
+    font-weight: 500;
+}
+
+.interested-section button {
+    margin: 1rem 0 1rem 0;
+    background-color: rgb(255, 219, 74);
+    color: black;
+    border-style: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    font-family: 'prata', sans-serif;
+}
+
+
+/* Footer Section  */
+
+.footer-main {
+    background: #2e3038;
+    height: 4rem;
+}
+
+.footer-section {
+    margin: 4rem 6rem 0rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+    font-family: 'prata', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.footer-section img {
+    margin-right: .4rem;
 }
